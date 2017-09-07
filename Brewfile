@@ -33,6 +33,9 @@ brew 'tree'
 brew 'mas'
 brew 'trash'
 
+# Editors
+brew 'neovim'
+
 # Apps
 cask 'alfred'
 cask 'firefox'
