@@ -28,6 +28,7 @@ brew 'grep'
 # Install other useful binaries.
 brew 'ack'
 brew 'git'
+brew 'git-lfs'
 brew 'tree'
 brew 'mas'
 brew 'trash'

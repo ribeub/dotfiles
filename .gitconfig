@@ -168,3 +168,9 @@
 
 	# Show the stash in patch form.
 	showPatch = true
+
+[filter "lfs"]
+	# Don’t have to initialize LFS every time you clone a repository.
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
