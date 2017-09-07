@@ -22,4 +22,7 @@ fi;
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+if [ "$1" == "--default" ]; then
+	echo "Setting up default MacOS config..."
+	source .macos
+fi;
