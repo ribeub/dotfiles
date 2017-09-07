@@ -4,10 +4,25 @@ export PATH="$HOME/bin:$PATH";
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
+for file in ~/.{path,bash_prompt,exports,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+# Load aliases, completion
+for file_type in ".aliases.d" ".bash_completion.d"
+do
+	if [ -d "$file_type/" ]
+	then
+		FILES="$file_type/*.bash"
+		for config_file in $FILES
+		do
+			if [ -e "${config_file}" ]; then
+       				source $config_file
+      			fi
+		done
+	fi
+done
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
@@ -45,4 +60,4 @@ fi;
 complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
-complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal" killall;
+complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
