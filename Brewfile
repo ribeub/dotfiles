@@ -45,6 +45,8 @@ cask 'iterm2'
 cask 'slack'
 cask 'spotify'
 cask 'vlc'
+cask 'transmission'
+cask 'caption'
 
 # Quicklook Plugins
 cask 'qlcolorcode'
