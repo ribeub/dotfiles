@@ -32,6 +32,7 @@ brew 'git-lfs'
 brew 'tree'
 brew 'mas'
 brew 'trash'
+brew 'fzf'
 
 # Editors
 brew 'neovim'
