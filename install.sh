@@ -8,7 +8,8 @@ function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude ".macos" \
-		--exclude "post-install-macos.sh" \
+		--exclude "brew.sh" \
+		--exclude "install.sh" \
 		--exclude "README.md" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
