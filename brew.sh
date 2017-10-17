@@ -31,8 +31,6 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew install bash-completion2
 
-
-
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
@@ -46,6 +44,7 @@ brew install git-lfs
 brew install tree
 brew install trash
 brew install fzf
+brew install ag
 
 # Install command line interface for the Mac App Store
 brew install mas
@@ -80,3 +79,4 @@ mas install 918858936
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
