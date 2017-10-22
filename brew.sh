@@ -52,6 +52,10 @@ brew install mas
 # Editors
 brew install neovim
 
+# Nodejs
+brew install nodejs
+brew install yarn --without-node
+
 # Apps
 brew cask install alfred
 brew cask install firefox
