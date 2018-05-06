@@ -51,6 +51,7 @@ brew install mas
 
 # Editors
 brew install neovim
+berw cask install visual-studio-code
 
 # Nodejs
 brew install nodejs
