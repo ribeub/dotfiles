@@ -79,8 +79,8 @@ brew cask install qlimagesize
 brew cask install betterzipql
 
 # Install Mac App Store apps
-# Airmail 3
-mas install 918858936
+mas install 918858936 # Airmail 3
+mas install 1060957067 # Monal - Free XMPP chat
 
 # Remove outdated versions from the cellar.
 brew cleanup
