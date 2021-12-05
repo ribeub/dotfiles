@@ -7,7 +7,8 @@
 - tmux
 - fzf
 - autojump
-
+- neovim
+- 
 ## Configuration
 
 ### NVM
@@ -21,3 +22,7 @@ nvm alias default node
 ## ZSH
 
 - Install the plugin manager [antigen](https://github.com/zsh-users/antigen).
+
+### Vim
+
+- Intall the plugin manager [vim-plug]](https://github.com/junegunn/vim-plug).
