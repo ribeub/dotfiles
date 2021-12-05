@@ -8,7 +8,7 @@
 - fzf
 - autojump
 - neovim
-- 
+
 ## Configuration
 
 ### NVM
@@ -26,3 +26,7 @@ nvm alias default node
 ### Vim
 
 - Intall the plugin manager [vim-plug]](https://github.com/junegunn/vim-plug).
+
+### Tmux
+
+- Install the plugin manager [tpm](https://github.com/tmux-plugins/tpm).
